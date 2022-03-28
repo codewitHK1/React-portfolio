@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Common from "./common";
 import bg from "./images/png-2.jpg";
 
