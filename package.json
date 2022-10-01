@@ -1,5 +1,5 @@
 {
-      "homepage": "https://codewitHK1.github.io/HitWeb",
+      "homepage": "https://codewitHK1.gitgub.io/portfolio",
       "name": "myapp",
       "version": "0.1.0",
       "private": true,
@@ -17,9 +17,11 @@
       },
       "scripts": {
             "start": "react-scripts start",
-           "deploy": "gh-pages -b master -d build",
+            "build": "react-scripts build",
             "test": "react-scripts test",
-            "eject": "react-scripts eject"
+            "eject": "react-scripts eject",
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build"
       },
       "eslintConfig": {
             "extends": [
